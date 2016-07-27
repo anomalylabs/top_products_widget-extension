@@ -1,0 +1,18 @@
+{{ asset_add('scripts.js', 'anomaly.extension.top_products_widget::js/chart.bundle.min.js') }}
+{{ asset_add('scripts.js', 'anomaly.extension.top_products_widget::js/' ~ widget.data.mode ~ '.js') }}
+
+<div class="row">
+    <div class="col-lg-8">
+        <canvas
+                width="150"
+                height="150"
+                data-mode="{{ widget.data.mode }}"
+                data-provides="anomaly.extension.top_products_widget"
+                data-json="{{ widget.data.products|json_encode }}"></canvas>
+    </div>
+    <div class="col-lg-16">
+
+        {% include "anomaly.extension.top_products_widget::partials/" ~ widget.data.mode %}
+
+    </div>
+</div>
