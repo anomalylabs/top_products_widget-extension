@@ -34,7 +34,7 @@ $(function () {
         // Chart Options
         var options = {
             legend: {
-                display: false
+                position: 'right'
             },
             paddingTop: 0,
             paddingLeft: 0,
