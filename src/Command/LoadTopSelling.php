@@ -2,7 +2,7 @@
 
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
 use Anomaly\ProductsModule\Product\Contract\ProductRepositoryInterface;
-use Illuminate\Contracts\Bus\SelfHandling;
+
 
 /**
  * Class LoadTopSelling
@@ -12,7 +12,7 @@ use Illuminate\Contracts\Bus\SelfHandling;
  * @author        Ryan Thompson <ryan@pyrocms.com>
  * @package       Anomaly\TopProductsWidgetExtension\Command
  */
-class LoadTopSelling implements SelfHandling
+class LoadTopSelling
 {
 
     /**

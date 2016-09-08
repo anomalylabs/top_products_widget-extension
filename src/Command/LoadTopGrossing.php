@@ -3,7 +3,7 @@
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
 use Anomaly\ProductsModule\Product\Contract\ProductRepositoryInterface;
 use Anomaly\Streams\Platform\Application\Application;
-use Illuminate\Contracts\Bus\SelfHandling;
+
 
 /**
  * Class LoadTopGrossing
@@ -13,7 +13,7 @@ use Illuminate\Contracts\Bus\SelfHandling;
  * @author        Ryan Thompson <ryan@pyrocms.com>
  * @package       Anomaly\TopProductsWidgetExtension\Command
  */
-class LoadTopGrossing implements SelfHandling
+class LoadTopGrossing
 {
 
     /**

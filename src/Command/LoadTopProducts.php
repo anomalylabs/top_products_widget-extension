@@ -2,7 +2,6 @@
 
 use Anomaly\ConfigurationModule\Configuration\Contract\ConfigurationRepositoryInterface;
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
-use Illuminate\Contracts\Bus\SelfHandling;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 
 /**
@@ -13,7 +12,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
  * @author        Ryan Thompson <ryan@pyrocms.com>
  * @package       Anomaly\TopProductsWidgetExtension\Command
  */
-class LoadTopProducts implements SelfHandling
+class LoadTopProducts
 {
 
     use DispatchesJobs;

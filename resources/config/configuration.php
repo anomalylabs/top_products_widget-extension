@@ -9,7 +9,7 @@ return [
             'options'       => [
                 'count'    => 'anomaly.extension.top_products_widget::configuration.mode.option.count',
                 'grossing' => 'anomaly.extension.top_products_widget::configuration.mode.option.grossing',
-            ]
-        ]
-    ]
+            ],
+        ],
+    ],
 ];

@@ -6,6 +6,6 @@ return [
         'option' => [
             'count'    => 'Count',
             'grossing' => 'Grossing',
-        ]
-    ]
+        ],
+    ],
 ];
